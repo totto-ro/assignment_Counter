@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='./../static/styles.css') }}">
+    <title>Counter</title>
+</head>
+<body>
+    <section>
+        <h1>Counter</h1>
+        <h2>
+            <h3 class="numTimes">1</h3>
+            <h3>time</h3>
+        </h2>
+        <div>
+            <button class="addVisits">Add two visits!</button>
+            <button class="reset">Reset</button>
+        </div>
+    </section>
+    <script src="{{ url_for('static', filename='./../static/index.js') }}"></script>
+</body>
+</html>
