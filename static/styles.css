@@ -45,6 +45,16 @@ div{
     box-shadow: 7px 7px rgb(0, 0, 0);
 }
 
+.reset > a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.addVisits > a{
+    text-decoration-line: none;
+    color: black;
+}
+
 .reset:hover{
     cursor: pointer;
     background-color: orange;

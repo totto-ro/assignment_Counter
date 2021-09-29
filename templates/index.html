@@ -11,14 +11,14 @@
     <section>
         <h1>Counter</h1>
         <h2>
-            <h3 class="numTimes">1</h3>
+            <h3 class="numTimes">{{session['count']}}</h3>
             <h3>time</h3>
         </h2>
         <div>
-            <button class="addVisits">Add two visits!</button>
-            <button class="reset">Reset</button>
+            <button class="addVisits"><a href="/addTwo">Add two visits!</a></button>
+            <button class="reset"><a href="/reset">Reset</a></button>
         </div>
     </section>
     <script src="{{ url_for('static', filename='./../static/index.js') }}"></script>
 </body>
-</html>
+</html>   <a href=""></a>
